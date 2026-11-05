@@ -1,12 +1,12 @@
 {
   "name": "auth-sweep",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AST-based static analysis engine and codemod CLI for legacy authentication technical debt",
   "type": "module",
   "main": "./dist/scanner.js",
   "types": "./dist/scanner.d.ts",
   "bin": {
-    "auth-sweep": "./dist/cli.js"
+    "auth-sweep": "dist/cli.js"
   },
   "files": [
     "dist"
@@ -26,7 +26,7 @@
     "static-analysis",
     "cli"
   ],
-  "author": "Sachin Mehta <sachinmehta247@gmail.com>",  
+  "author": "Sachin Mehta <sachinmehta247@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@babel/generator": "^7.29.13",
