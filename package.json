@@ -12,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@babel/parser": "^7.29.13",
-    "@babel/traverse": "^7.29.13"
+    "@babel/traverse": "^7.29.13",
+    "@sachin-dev/git-broom": "^1.0.0"
   },
   "devDependencies": {
     "@babel/types": "^7.29.11",
