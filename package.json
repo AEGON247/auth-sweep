@@ -1,7 +1,7 @@
 {
   "name": "auth-sweep",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.2",
+  "description": "AST-based static analysis engine and codemod CLI for legacy authentication technical debt",
   "type": "module",
   "main": "./dist/scanner.js",
   "types": "./dist/scanner.d.ts",
@@ -13,10 +13,20 @@
   ],
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublishOnly": "npm run build"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "ast",
+    "security",
+    "appsec",
+    "codemod",
+    "babel",
+    "auth",
+    "static-analysis",
+    "cli"
+  ],
+  "author": "Sachin Mehta <sachinmehta247@gmail.com>",  
   "license": "ISC",
   "dependencies": {
     "@babel/generator": "^7.29.13",
@@ -32,5 +42,9 @@
     "@types/node": "^26.6.6",
     "tsx": "^4.23.15",
     "typescript": "^7.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AEGON247/auth-sweep.git"
   }
 }
